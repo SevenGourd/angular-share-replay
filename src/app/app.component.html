@@ -1,0 +1,10 @@
+<hello name="{{ name }}"></hello>
+<p>
+  <button (click)="cacheMode()">Cache Mode(default)</button>
+  <button (click)="noCacheMode()">No Cache Mode</button>
+  <button (click)="getData()">Get data</button>
+  <button (click)="clearData()">Clear data</button>
+</p>
+<pre>
+   {{ myData | json }}
+</pre>
